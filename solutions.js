@@ -20,3 +20,19 @@
  * and
  * concat
  */
+
+function isTrue(input){
+    return input === true;
+}
+function isFalse(input){
+    return input === false;
+}
+function not(input){
+    return !Boolean(input);
+}
+function addOne(input){
+    return Number(input) +1;
+}
+function isEven(number){
+    return number % 2 === 0;
+}
