@@ -34,5 +34,12 @@ function addOne(input){
     return Number(input) +1;
 }
 function isEven(number){
+    if (number != false);
     return number % 2 === 0;
+}
+function isIdentical(argument1, argument2){
+    return argument1 === argument2;
+}
+function isEqual(input , input2){
+    return
 }
