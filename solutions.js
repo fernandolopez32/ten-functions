@@ -47,7 +47,7 @@ function isIdentical(argument1, argument2){
 }
 //7
 function isEqual(input , input2){
-    return (input == input2);
+    return input == input2;
 }
 //8
 function or(x,y){
