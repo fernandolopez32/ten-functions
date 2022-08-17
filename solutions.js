@@ -38,7 +38,6 @@ function addOne(input){
 }
 //5
 function isEven(number){
-    if (number !== Boolean(false));
     return number % 2 === 0;
 }
 //6
